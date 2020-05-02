@@ -2,7 +2,8 @@
 My tensorflow enviroment is tensorflow-gpu==1.13,and I use the scripts followed from https://github.com/vickyzayats/roberta_tf_ckpt.
 # How to use the script
 Step 1:
-Download a pytorch version pretrained roberta model and roberta config file from Huggingface's Transformers.   For convenience, I list the related roberta model links from Huggingface's Transformers.
+Download a pytorch version pretrained roberta model and roberta config file from Huggingface's Transformers.  
+For convenience, I list the related roberta model links from Huggingface's Transformers.
 
 "roberta-base": "https://cdn.huggingface.co/roberta-base-pytorch_model.bin"
 "roberta-large": "https://cdn.huggingface.co/roberta-large-pytorch_model.bin"
