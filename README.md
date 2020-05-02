@@ -19,6 +19,14 @@ and the responding config file are:
 "roberta-base-openai-detector": "https://s3.amazonaws.com/models.huggingface.co/bert/roberta-base-openai-detector-config.json"  
  "roberta-large-openai-detector": "https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-openai-detector-config.json"  
 
+the vocab file are:  
+"roberta-base": "https://s3.amazonaws.com/models.huggingface.co/bert/roberta-base-vocab.json"  
+"roberta-large": "https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-vocab.json"  
+"roberta-large-mnli": "https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-mnli-vocab.json"  
+"distilroberta-base": "https://s3.amazonaws.com/models.huggingface.co/bert/distilroberta-base-vocab.json"  
+"roberta-base-openai-detector": "https://s3.amazonaws.com/models.huggingface.co/bert/roberta-base-vocab.json"  
+"roberta-large-openai-detector": "https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-vocab.json"  
+
 ## Step 2:  
 Install pytorch_transformers librarys by using  
 ### pip install pytorch-transformers   
