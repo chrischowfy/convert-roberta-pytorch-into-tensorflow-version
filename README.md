@@ -27,8 +27,8 @@ For example, to get the large version roberta, run
 ### python3 convert_pytorch_checkpoint_to_tf.py --model_name=roberta-large --config_file=./robert-large-config.json --tf_cache_dir=./output_dir  
 
 ## Step 3:  
-Since Roberta and Bert have the same model framwork, to use the tensorflow version roberta, you can change a little Bert code:  
+Since Roberta and Bert have the same model framwork, so you can change a little Bert code:  
 The tokenization_roberta is from https://github.com/huggingface/transformers/tree/master/src/transformers, put the file at your current path.  
 ### tokenizer = tokenization_roberta.RobertaTokenizer.from_pretrained(FLAGS.vocab_file)  
-the vocab_file is the vocab.json, the model_config_path is the roberta-large-config.json  
+in your Roerta code, the vocab_file is the vocab.json, the model_config_path is the roberta-large-config.json  
 
