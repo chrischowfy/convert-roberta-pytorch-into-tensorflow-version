@@ -1,11 +1,12 @@
 # convert-roberta-pytorch-into-tensorflow-version
-My tensorflow enviroment is tensorflow-gpu==1.13
-I use the scripts followed from https://github.com/vickyzayats/roberta_tf_ckpt.
+My tensorflow enviroment is tensorflow-gpu==1.13,and I use the scripts followed from https://github.com/vickyzayats/roberta_tf_ckpt.
 # How to use the script
 Step 1:
 Download a pytorch version pretrained roberta model and roberta config file from Huggingface's Transformers https://github.com/huggingface/transformers. For convenience, I list the related roberta model links from Huggingface's Transformers:
-"roberta-base": "https://cdn.huggingface.co/roberta-base-pytorch_model.bin",
-"roberta-large": "https://cdn.huggingface.co/roberta-large-pytorch_model.bin",
+"roberta-base": "https://cdn.huggingface.co/roberta-base-pytorch_model.bin"
+
+"roberta-large": "https://cdn.huggingface.co/roberta-large-pytorch_model.bin"
+
 "roberta-large-mnli": "https://cdn.huggingface.co/roberta-large-mnli-pytorch_model.bin",
 "distilroberta-base": "https://cdn.huggingface.co/distilroberta-base-pytorch_model.bin",
 "roberta-base-openai-detector": "https://cdn.huggingface.co/roberta-base-openai-detector-pytorch_model.bin",
