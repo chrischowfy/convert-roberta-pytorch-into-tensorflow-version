@@ -36,7 +36,8 @@ For example, to get the large version roberta, run
 
 ## Step 3:  
 Since Roberta and Bert have the same model framwork, so you can change a little Bert code:  
-The tokenization_roberta is from https://github.com/huggingface/transformers/tree/master/src/transformers, put the file at your current path.  
+The tokenization_roberta is from https://github.com/huggingface/transformers/tree/master/src/transformers. just
+### from transformers import *
 ### tokenizer = tokenization_roberta.RobertaTokenizer.from_pretrained(FLAGS.vocab_file)  
 in your Roerta code, the vocab_file is the vocab.json, the model_config_path is the roberta-large-config.json  
 
