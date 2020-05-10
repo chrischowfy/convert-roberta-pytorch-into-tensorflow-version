@@ -32,7 +32,7 @@ Install pytorch_transformers librarys by using
 ### pip install pytorch-transformers   
 run the "convert_pytorch_checkpoint_to_tf.py" to get a tensorflow version roberta model.    
 For example, to get the large version roberta, run  
-### python3 convert_pytorch_checkpoint_to_tf.py --model_name=roberta-large --config_file=./robert-large-config.json --tf_cache_dir=./output_dir  
+### python3 convert_pytorch_checkpoint_to_tf.py --model_name=./roberta-large-pytorch_model.bin --config_file=./robert-large-config.json --tf_cache_dir=./output_dir  
 
 ## Step 3:  
 Since Roberta and Bert have the same model framwork, so you can change a little Bert code:  
